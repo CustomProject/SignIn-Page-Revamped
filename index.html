@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Revamped</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"/>
+
+</head>
+<body>
+    <section id="main-section-signin">
+        <header class="main-header-signin">
+
+            <video class="video-background" autoplay muted loop playsinline>
+                <source src="assets/Blue-Purple Gradient Background Animated.mp4" type="video/mp4">
+            </video>
+            <div class="main-container">
+                
+                <div class="signin-box">
+                    <div class="header">
+                        <h1 id="header-title">Sign In</h1>
+                    </div>
+
+                    <div class="signin-system">
+                        <form method="post">
+                            <div id="system-container">
+
+                                <div id="email">
+                                    <label id="email-title" for="email">Username or Email <span style="user-select: none; color: red;">*</span></label>
+                                    <input id="email-text" type="text" name="email" autocomplete="off" required /> 
+                                </div>
+
+                                <div id="password">
+                                    <label id="passowrd-title">Password <span style="user-select: none; color: red;">*</span></label>
+                                    <input id="password-text" type="password" name="password" required />
+                                </div>
+
+                                <div class="secure-box">
+                                    <div id="remember-me">
+                                        <label style="user-select: none;">
+                                            <input type="checkbox" name="remember" id="remember-me">Remember Me</label>
+                                        </div>
+
+                                    <div id="forgot-password">
+                                            <a href="#" style="user-select: none;">Forgot Password?</a>
+                                        </div>
+                                </div>
+                                
+                                <div id="signin-button-main">
+                                    <div id="signin-button">
+                                        <input class="submit-button btn btn-primary" type="submit" value="Sign in"/>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form> 
+                    </div>
+
+                </div>
+                
+            <div class="second-container">
+                <div class="aboutus">
+                    <h2 id="title-about">Welcome back!</h2>
+                    <p id="comment-about">We’re thrilled to have you with us again. Your journey doesn’t end here—it's just getting better.<br>Sign in to access your personalized dashboard, reconnect with your progress, and dive back into everything you love. Whether you're here to pick up where you left off or explore something new, we're here to make your experience smooth, enjoyable, and rewarding. Let’s get you back to what matters most.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+</section>
+
+
+</body>
+</html>

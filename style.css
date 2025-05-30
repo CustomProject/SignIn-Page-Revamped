@@ -1,0 +1,182 @@
+/* MAIN CONFIGURATION - ALL DEVICES */
+
+#header-title, #email-title, #passowrd-title, #remember-me, .aboutus{
+    color: white;
+}
+
+.main-container{
+    background: linear-gradient(-45deg, #0a44a78b, #9957bf73, #e0c3fc67, #023cfc77);
+    background-size: 400% 400%;
+    animation: gradientAnimation 30s ease infinite;
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.564);
+    border: 1px solid #E0C3FC;
+    border-radius: 10px;
+}
+
+.submit-button{
+    background-color: rgb(0, 123, 255);
+}
+.content {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.video-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+/* ANIMATIONS SETTINGS */
+
+@keyframes gradientAnimation{
+
+    0% { background-position: 0% 50%;}
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+    
+}
+
+@media(min-width: 1201px){
+
+    /* MAIN CONTAINER CONFIGURATION - Laptop & Desktop */
+
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        padding: 6rem;
+        margin-top: 7rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .aboutus{
+        text-align: center;
+        margin-top: 6vh;
+    }
+
+    #email-text, #password-text{
+        height: 2.5rem;
+        width: 20rem;
+    }
+
+    .secure-box{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #signin-button-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .submit-button{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-top: 1.4rem;
+
+        font-size: 17px;
+    }
+}
+
+@media(min-width:319px) and (max-width:480px){
+
+    /* MAIN CONTAINER CONFIGURATION - Mobile */
+
+    .main-container{
+        display: flex;
+        font-size: 10px;
+        gap: 2rem;
+        flex-direction: row;
+        padding: 1rem;
+        margin-top: 11rem;
+    }
+
+    .secure-box{
+        display: flex;
+        justify-content: space-between;
+        font-size: 7px;
+    }
+
+    .aboutus{
+        text-align: center;
+    }
+
+    #email-text, #password-text{
+        height: 1.7rem;
+        width: 8rem;
+    }
+
+    #signin-button-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .submit-button{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-top: 1.4rem;
+
+        font-size: 10px;
+    }
+}
+
+@media(min-width:481px) and (max-width:1200px){
+
+        /* MAIN CONTAINER CONFIGURATION - Ipad */
+
+    .main-container{
+        display: flex;
+        font-size: 12px;
+        gap: 5rem;
+        flex-direction: row;
+        padding: 2.5vh;
+        margin-top: 11rem;
+    }
+    
+    .secure-box{
+        display: flex;
+        justify-content: space-between;
+        font-size: 7px;
+    }
+
+    .aboutus{
+        text-align: center;
+    }
+    
+    #email-text, #password-text{
+        height: 1.7rem;
+        width: 10rem;
+    }
+
+        #signin-button-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .submit-button{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-top: 1.1rem;
+
+        font-size: 10px;
+    }
+}
