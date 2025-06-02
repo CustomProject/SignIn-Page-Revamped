@@ -5,7 +5,6 @@ This is a **Responsive Sign In Page Template in HTML & CSS** that can be easily 
 
 - You are free to use this project for **personal or commercial** purposes.
 - You can modify and redistribute it without any restrictions, as long as you keep the original MIT License and copyright notice.
-- Note: The template includes personal and AI-generated images (via Bing AI). These images are not covered by the MIT License. If you redistribute the project, please replace them with your own images.
 
 If you have any questions or suggestions, feel free to contact me!
 
